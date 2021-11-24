@@ -1,6 +1,31 @@
-body{background-color: cornflowerblue; font-size: 10px; margin: 0px; padding: 0px;}
+body {
+  background-color: cornflowerblue;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
 
-ul {display: flex;
-list-style-type:none; justify-content:space-between; flex-wrap: wrap;}
+ul {
+  width: 1500px;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
 
-ul li {height: 100px; width: 100px; border: solid 2px cornsilk; border-radius: 100px; background-color: crimson; text-align: center;}
+ul li {
+  height: 100px;
+  line-height: 100px;
+  width: 100px;
+  border: solid 2px cornsilk;
+  border-radius: 100px;
+  text-align: center;
+}
+ul li:nth-child(5) {
+  background-color: red;
+}
+/* ul li:nth-child(odd) {
+  background-color: red;
+}
+ul li:nth-child(even) {
+  background-color: yellow;
+} */

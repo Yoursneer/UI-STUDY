@@ -1,31 +1,18 @@
 body {
-  background-color: cornflowerblue;
   font-size: 25px;
   margin: 0px;
   padding: 0px;
 }
 
-ul {
-  width: 1500px;
-  display: flex;
-  list-style-type: none;
-  flex-wrap: wrap;
+.top-banner {
+  background-color: orange;
+  padding: 50px;
 }
-
-ul li {
-  height: 100px;
-  line-height: 100px;
-  width: 100px;
-  border: solid 2px cornsilk;
-  border-radius: 100px;
-  text-align: center;
+.body-container {
+  width: 100%;
 }
-ul li:nth-child(5) {
-  background-color: red;
+.body-area {
+  margin: 0 auto;
+  width: 1400px;
+  border: 5px solid red;
 }
-/* ul li:nth-child(odd) {
-  background-color: red;
-}
-ul li:nth-child(even) {
-  background-color: yellow;
-} */
